@@ -1,0 +1,26 @@
+/* хедер*/
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-nav .list {
+  display: flex;
+  margin-left: 85px;
+  padding-left: 0px;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-nav .item + .item {
+  margin-left: 50px;
+}
