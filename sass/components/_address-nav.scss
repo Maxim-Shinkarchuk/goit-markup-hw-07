@@ -26,8 +26,8 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  color: var(--primary-text-color);
-  font-family: var(--font-first);
+  color: $primary-text-color;
+  font-family: $font-first;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -37,8 +37,8 @@
   &:hover,
   &:focus,
   &:active {
-    --color5: var(--accent-color);
-    color: var(--accent-color);
+    --color5: $accent-color;
+    color: $accent-color;
   }
 }
 

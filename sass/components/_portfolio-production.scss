@@ -64,8 +64,8 @@
 }
 
 .overlay-text {
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: $title-second-text-color;
+  font-family: $font-first;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -94,8 +94,8 @@
   padding-right: 24px;
   margin: 0;
 
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: $title-text-color;
+  font-family: $font-first;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -110,8 +110,8 @@
   padding-right: 24px;
   margin: 0;
 
-  color: var(--primary-text-color);
-  font-family: var(--font-first);
+  color: $primary-text-color;
+  font-family: $font-first;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

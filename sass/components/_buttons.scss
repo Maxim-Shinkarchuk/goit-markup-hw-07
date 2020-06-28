@@ -12,26 +12,26 @@
   border-radius: 3px;
   border: none;
 
-  font-family: var(--font-first);
-  color: var(--title-second-text-color);
+  font-family: $font-first;
+  color: $title-second-text-color;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .button-second {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 
   & .text-button {
     display: flex;
     align-items: center;
     text-align: center;
 
-    color: var(--title-second-text-color);
-    font-family: var(--font-first);
+    color: $second-text-color;
+    font-family: $font-first;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
@@ -41,12 +41,12 @@
 }
 
 .button-list {
-  background-color: var(--title-second-text-color);
-  color: var(--title-text-color);
+  background-color: $title-second-text-color;
+  color: $title-text-color;
 
   &.button {
-    background-color: var(--accent-background-color);
-    font-family: var(--font-first);
+    background-color: $accent-background-color;
+    font-family: $font-first;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -54,7 +54,7 @@
     letter-spacing: 0.03em;
   }
   &.button:hover {
-    background-color: var(--accent-color);
-    color: var(--title-second-text-color);
+    background-color: $accent-color;
+    color: $title-second-text-color;
   }
 }

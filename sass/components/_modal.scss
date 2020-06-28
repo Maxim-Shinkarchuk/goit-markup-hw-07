@@ -57,7 +57,7 @@
     0px 1px 3px rgba(0, 0, 0, 0.12);
 
   &:hover .close {
-    --color2: var(--accent-color);
+    --color2: $accent-color;
   }
 }
 
@@ -75,7 +75,7 @@
 .modal-text {
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: var(--font-first);
+  font-family: $font-first;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -103,10 +103,10 @@
     font-size: 12px;
   }
   &:focus + .form-label {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   &:focus .modal-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
 }
 
@@ -129,7 +129,7 @@
   position: absolute;
   display: inline-block;
   transform: translateY(-50%);
-  fill: var(--title-text-color);
+  fill: $title-text-color;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -142,13 +142,13 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  font-family: var(--font-first);
+  font-family: $font-first;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .form-icon {
@@ -170,18 +170,18 @@
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 
-  font-family: var(--font-first);
+  font-family: $font-first;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 
   &:focus ~ .textarea-coment {
     transform: translateY(-35px);
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 12px;
   }
 
@@ -195,13 +195,13 @@
   display: block;
   top: 310px;
   left: 60px;
-  font-family: var(--font-first);
+  font-family: $font-first;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: $-primary-text-color;
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -210,31 +210,31 @@
 .text-agreement {
   display: inline-block;
   margin-right: 2px;
-  font-family: var(--font-first);
+  font-family: $font-first;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .agreement {
   display: inline-block;
-  font-family: var(--font-first);
+  font-family: $font-first;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
 }
 
 .check-agreement:checked + .check-custom {
-  fill: var(--title-second-text-color);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  fill: $title-second-text-color;
+  background-color: $accent-color;
+  border-color: $accent-color;
   background-size: contain;
 }
 
@@ -269,12 +269,12 @@
   border-radius: 3px;
   border: none;
 
-  font-family: var(--font-firstf);
-  color: var(--title-second-text-color);
+  font-family: $font-firstf;
+  color: $title-second-text-color;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }

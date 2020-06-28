@@ -10,8 +10,8 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: $title-text-color;
+  font-family: $font-first;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -21,10 +21,10 @@
   &:hover,
   &:focus,
   &:active {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   &.curent {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 
   &.curent::after {
@@ -35,6 +35,6 @@
     height: 4px;
     border-radius: 2px;
     bottom: 0;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
