@@ -12,7 +12,7 @@
   border-radius: 3px;
   border: none;
 
-  font-family: $font-first;
+  font-family: var(--font-first);
   color: var(--title-second-text-color);
   font-style: normal;
   font-weight: bold;
@@ -31,7 +31,7 @@
     text-align: center;
 
     color: var(--title-second-text-color);
-    font-family: $font-first;
+    font-family: var(--font-first);
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
@@ -46,7 +46,7 @@
 
   &.button {
     background-color: var(--accent-background-color);
-    font-family: $font-first;
+    font-family: var(--font-first);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

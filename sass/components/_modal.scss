@@ -75,7 +75,7 @@
 .modal-text {
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -142,7 +142,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -170,7 +170,7 @@
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -195,7 +195,7 @@
   display: block;
   top: 310px;
   left: 60px;
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -210,7 +210,7 @@
 .text-agreement {
   display: inline-block;
   margin-right: 2px;
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -221,7 +221,7 @@
 
 .agreement {
   display: inline-block;
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -269,7 +269,7 @@
   border-radius: 3px;
   border: none;
 
-  font-family: $font-firstf;
+  font-family: var(--font-firstf);
   color: var(--title-second-text-color);
   font-style: normal;
   font-weight: bold;

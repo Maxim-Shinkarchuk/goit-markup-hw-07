@@ -6,7 +6,7 @@
 .production .hide-text {
   background-color: var(--accent-color);
   color: var(--title-second-text-color);
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

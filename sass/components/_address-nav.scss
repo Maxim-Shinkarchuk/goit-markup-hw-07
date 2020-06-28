@@ -27,7 +27,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   color: var(--primary-text-color);
-  font-family: $font-first;
+  font-family: var(--font-first);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
