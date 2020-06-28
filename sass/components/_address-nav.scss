@@ -1,48 +1,48 @@
-.address-nav{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+.address-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
-.address-nav .list{
-    display: flex;
-    margin: 0;
+.address-nav .list {
+  display: flex;
+  margin: 0;
   padding: 0;
   list-style: none;
-     }
-
-
-
-.address-nav .item + .item{
-    margin-left: 30px;
 }
 
-    /*стиль адреса*/
-          
-.address-mail{
-    display: inline-flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    cursor: pointer;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.address-nav .item + .item {
+  margin-left: 30px;
+}
 
-    color:var(--primary-text-color);
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    }      
+/*стиль адреса*/
 
-    .address-mail:hover, .address-mail:focus, .address-mail:active{
-        --color5: var(--accent-color);
-        color: var(--accent-color);
-    }
+.address-mail {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .icon-address{
-       margin-right: 10px;
-       --color3: currentColor;
-    }
+  color: var(--primary-text-color);
+  font-family: $font-first;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    --color5: var(--accent-color);
+    color: var(--accent-color);
+  }
+}
+
+.icon-address {
+  margin-right: 10px;
+  --color3: currentColor;
+}

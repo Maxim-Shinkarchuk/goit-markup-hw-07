@@ -1,64 +1,63 @@
-  /*наш профиль*/
+/*наш профиль*/
 
-.profile.title{
-    margin-top: 0px;
-    margin-bottom: 50px;
+.profile.title {
+  margin-top: 0px;
+  margin-bottom: 50px;
 
-    color: var(--title-text-color);
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-        }   
-
-.profile .image{
-    width: 370px;
-    height: 294px;
+  color: var(--title-text-color);
+  font-family: $font-first;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.image-box{
-    display: block;
-    position: relative;
+.profile .image {
+  width: 370px;
+  height: 294px;
 }
 
-.box-title{
-    position: absolute;
-    display: block;
-    width:100%;
-    bottom: 0;
-    right: 0;
-
+.image-box {
+  display: block;
+  position: relative;
 }
 
-.profile .list{
-    display: flex;
-    padding-left: 0px;
+.box-title {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 50px;
-    }
+.profile .list {
+  display: flex;
+  padding-left: 0px;
 
-.profile .item + .item{
-    margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+}
+
+.profile .item + .item {
+  margin-left: 30px;
 }
 
 .profile .text-title {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-                       
-    color: var(--title-second-text-color);
-    background: rgba(47, 48, 58, 0.8);
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    }
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  color: var(--title-second-text-color);
+  background: rgba(47, 48, 58, 0.8);
+  font-family: $font-first;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+}

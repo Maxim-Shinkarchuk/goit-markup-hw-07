@@ -1,52 +1,52 @@
- /*постоянные клиенты*/
+/*постоянные клиенты*/
 
- .clients.title{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 50px;
+.clients.title {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 
-    color: var(--title-text-color);
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    }
-
-.clients.list{
-    display: flex;
-    padding-top: 50px;
-    padding-left: 0px;
-    justify-content: space-between;
-    margin: 0px;
-    }
- 
-.clients__logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 90px;
-    fill: #AFB1B8;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    cursor: pointer;
-    transition-property: border, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-
-.clients__logo:hover, .clients__logo:focus, .clients__logo:active{
-    border: 1px solid var(--accent-color);
-    --color6: #2196F3;
-    
+  color: var(--title-text-color);
+  font-family: $font-first;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.clients-icon{
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.clients.list {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 0px;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.clients__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: 1px solid var(--accent-color);
+    --color6: #2196f3;
+  }
+}
+
+.clients-icon {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
