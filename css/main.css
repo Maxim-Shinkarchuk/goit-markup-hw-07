@@ -53,6 +53,7 @@ a {
 /* стили для боди */
 body {
   background-color: #ffffff;
+  color: #ffffff;
 }
 
 /* хедер*/
@@ -111,8 +112,8 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -121,11 +122,11 @@ body {
 }
 
 .nav-link:hover, .nav-link:focus, .nav-link:active {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-link.curent {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-link.curent::after {
@@ -136,7 +137,7 @@ body {
   height: 4px;
   border-radius: 2px;
   bottom: 0;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .address-nav {
@@ -200,14 +201,14 @@ body {
 
 /*лого*/
 .logo {
-  color: var(--accent-color);
+  color: #2196f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: var(--font-second);
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -219,8 +220,8 @@ body {
   display: block;
   padding-top: 25px;
   padding-bottom: 25px;
-  color: var(--title-text-color);
-  font-family: var(--font-second);
+  color: #212121;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -232,8 +233,8 @@ body {
   display: block;
   margin: 0px;
   padding: 0px;
-  color: var(--accent-background-color);
-  font-family: var(--font-second);
+  color: #f5f4fa;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -253,18 +254,18 @@ body {
   margin-top: 30px;
   border-radius: 3px;
   border: none;
-  font-family: var(--font-first);
-  color: var(--title-second-text-color);
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .button-second {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .button-second .text-button {
@@ -275,8 +276,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
@@ -285,13 +286,13 @@ body {
 }
 
 .button-list {
-  background-color: var(--title-second-text-color);
-  color: var(--title-text-color);
+  background-color: #ffffff;
+  color: #212121;
 }
 
 .button-list.button {
-  background-color: var(--accent-background-color);
-  font-family: var(--font-first);
+  background-color: #f5f4fa;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -300,12 +301,12 @@ body {
 }
 
 .button-list.button:hover {
-  background-color: var(--accent-color);
-  color: var(--title-second-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .main-portfolio {
-  background-color: var(--title-second-text-color);
+  background-color: #ffffff;
 }
 
 /*стиль главного фона и цвет заголовка*/
@@ -322,7 +323,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: var(--title-second-text-color);
+  color: #ffffff;
 }
 
 .section-hero .title {
@@ -332,13 +333,13 @@ body {
   margin-bottom: 0px;
   margin-left: auto;
   text-align: center;
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: var(--title-second-text-color);
+  color: #ffffff;
 }
 
 .container .list {
@@ -364,7 +365,7 @@ body {
 }
 
 .features-icon {
-  background-color: var(--accent-background-color);
+  background-color: #f5f4fa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,8 +386,8 @@ body {
   padding-left: 0px;
   margin-bottom: 0px;
   margin-top: 30px;
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -397,8 +398,8 @@ body {
 .features.text {
   margin-top: 10px;
   margin-bottom: 0px;
-  color: var(--primary-text-color);
-  font-family: var(--font-first);
+  color: #757575;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -410,8 +411,8 @@ body {
 .profile.title {
   margin-top: 0px;
   margin-bottom: 50px;
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -457,9 +458,9 @@ body {
   margin-bottom: 0px;
   padding-top: 27px;
   padding-bottom: 27px;
-  color: var(--title-second-text-color);
+  color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -469,7 +470,7 @@ body {
 }
 
 .section.team {
-  background-color: var(--accent-background-color);
+  background-color: #f5f4fa;
 }
 
 .team .title {
@@ -478,8 +479,8 @@ body {
   margin-bottom: 0px;
   margin-left: auto;
   padding-top: 0px;
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -505,7 +506,7 @@ body {
 }
 
 .team.card {
-  background-color: var(--title-second-text-color);
+  background-color: #ffffff;
 }
 
 .team__image {
@@ -516,7 +517,7 @@ body {
   width: 270px;
   padding-top: 30px;
   padding-bottom: 24px;
-  background-color: var(--title-second-text-color);
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
@@ -529,8 +530,8 @@ body {
 .team .name {
   text-align: center;
   margin: 0px;
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -542,8 +543,8 @@ body {
   padding-top: 10px;
   text-align: center;
   margin: 0px;
-  color: var(--primary-text-color);
-  font-family: var(--font-first);
+  color: #757575;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -567,7 +568,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--title-second-text-color);
+  background-color: #ffffff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -587,7 +588,7 @@ body {
 }
 
 .social-links:hover, .social-links:focus, .social-links:active {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   --color6: #ffffff;
 }
 
@@ -600,8 +601,8 @@ body {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 50px;
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -647,7 +648,7 @@ body {
 }
 
 .clients__logo:hover, .clients__logo:focus, .clients__logo:active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196f3;
   --color6: #2196f3;
 }
 
@@ -684,8 +685,8 @@ body {
 .footer__container__logo-adress {
   padding: 0px;
   margin-right: 0px;
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -697,8 +698,8 @@ body {
   margin-top: 10px;
   margin-bottom: 0px;
   margin-right: 69px;
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -712,7 +713,7 @@ body {
   display: flex;
   margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -728,8 +729,8 @@ body {
   display: block;
   margin-top: 0px;
   margin-bottom: 21px;
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -778,7 +779,7 @@ body {
 }
 
 .footer__social-links:hover, .footer__social-links:focus, .footer__social-links:active {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .footer__social-icon {
@@ -791,8 +792,8 @@ body {
   display: flex;
   margin-top: 0px;
   margin-bottom: 21px;
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -832,8 +833,8 @@ body {
   height: 50px;
   cursor: pointer;
   border: none;
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
@@ -845,7 +846,7 @@ body {
 
 .send-icon {
   margin-left: 10px;
-  fill: var(--title-second-text-color);
+  fill: #ffffff;
 }
 
 .footer__copyright-container {
@@ -855,7 +856,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: rgba(255, 255, 255, 0.4);
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -930,7 +931,7 @@ body {
 }
 
 .close-modal:hover .close {
-  --color2: var(--accent-color);
+  --color2: $accent-color;
 }
 
 .close {
@@ -957,7 +958,7 @@ body {
 .modal-text {
   margin-top: 0;
   margin-bottom: 30px;
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -990,11 +991,11 @@ body {
 }
 
 .form-input:focus + .form-label {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .form-input:focus .modal-icon {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .form__text-input {
@@ -1024,7 +1025,7 @@ body {
   display: inline-block;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  fill: var(--title-text-color);
+  fill: #212121;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
@@ -1042,13 +1043,13 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 .form-icon {
@@ -1071,19 +1072,19 @@ body {
   padding-left: 16px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 .textarea-field:focus ~ .textarea-coment {
   -webkit-transform: translateY(-35px);
           transform: translateY(-35px);
-  color: var(--accent-color);
+  color: #2196f3;
   font-size: 12px;
 }
 
@@ -1097,13 +1098,13 @@ body {
   display: block;
   top: 310px;
   left: 60px;
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: #757575;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 250ms;
@@ -1115,31 +1116,31 @@ body {
 .text-agreement {
   display: inline-block;
   margin-right: 2px;
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 .agreement {
   display: inline-block;
-  font-family: var(--font-first);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: #2196f3;
   text-decoration: underline;
 }
 
 .check-agreement:checked + .check-custom {
-  fill: var(--title-second-text-color);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  fill: #ffffff;
+  background-color: #2196f3;
+  border-color: #2196f3;
   background-size: contain;
 }
 
@@ -1178,25 +1179,25 @@ body {
   cursor: pointer;
   border-radius: 3px;
   border: none;
-  font-family: var(--font-firstf);
-  color: var(--title-second-text-color);
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 /*Портфолио*/
 .production .list {
-  background-color: var(--title-second-text-color);
+  background-color: #ffffff;
 }
 
 .production .hide-text {
-  background-color: var(--accent-color);
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1233,9 +1234,9 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--accent-background-color);
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  background-color: #f5f4fa;
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1245,8 +1246,8 @@ body {
 }
 
 .button-container__button:hover, .button-container__button:focus, .button-container__button:active {
-  background-color: var(--accent-color);
-  color: var(--title-second-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
@@ -1324,8 +1325,8 @@ body {
 }
 
 .overlay-text {
-  color: var(--title-second-text-color);
-  font-family: var(--font-first);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1356,8 +1357,8 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0;
-  color: var(--title-text-color);
-  font-family: var(--font-first);
+  color: #212121;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1371,8 +1372,8 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0;
-  color: var(--primary-text-color);
-  font-family: var(--font-first);
+  color: #757575;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
